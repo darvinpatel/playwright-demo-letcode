@@ -1,0 +1,29 @@
+{
+  "name": "playwright-ts-letcode-practice",
+  "version": "1.0.0",
+  "description": "<h1>\r   Practice test automation with <a href=\"https://playwright.dev/\"> <img width=\"140\" alt=\"Playwright Logo\" src=\"https://raw.githubusercontent.com/github/explore/60cd2530141f67f07a947fa2d310c482e287e387/topics/playwright/playwright.png\" /> </a> on <a href=\"https://letcode.in/test\">Let Code</a>\r </h1>",
+  "main": "index.js",
+  "scripts": {
+    "test-i": "playwright test -g @input",
+    "test-s": "playwright test -g @select",
+    "test-a": "playwright test -g @alert",
+    "test-r": "playwright test -g @radio",
+    "test-d": "playwright test -g @drop",
+    "test-sl": "playwright test -g @slider",
+    "test-t": "playwright test -g @table",
+    "test-f": "playwright test -g @file",
+    "test-fo": "playwright test -g @form",
+    "test": "playwright test"
+  },
+  "keywords": [],
+  "author": "Monika",
+  "license": "ISC",
+  "devDependencies": {
+    "@playwright/test": "^1.29.2"
+  },
+  "dependencies": {
+    "@faker-js/faker": "^7.6.0",
+    "faker": "^5.5.3",
+    "mocker-data-generator": "^3.0.1"
+  }
+}

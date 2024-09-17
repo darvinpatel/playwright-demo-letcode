@@ -1,0 +1,103 @@
+{
+    "homePage": {
+        "inputLink": "a[href='/edit']",
+        "selectLink": "a[href='/dropdowns']",
+        "alertLink": "a[href='/alert']",
+        "radioLink": "a[href='/radio']",
+        "windowLink": "a[href='/windows']",
+        "dropLink": "a[href='/dropable']",
+        "sliderLink": "a[href='/slider']",
+        "tableLink": "a[href='/table']",
+        "advancedTableLink": "a[href='/advancedtable']",
+        "calendarLink": "a[href='/calendar']",
+        "formLink": "a[href='/forms']",
+        "fileLink": "a[href='/file']",
+        "shadowLink": "a[href='/shadow']"
+    },
+
+    "inputPage": {
+        "nameInput": "#fullName",
+        "appeendInput": "#join",
+        "textboxInput": "#getMe",
+        "clearTextInput": "#clearMe",
+        "editFieldInput": "#noEdit",
+        "readonlyInput": "#dontwrite"
+    },
+
+    "selectPage": {
+        "fruitsSelect": "#fruits",
+        "fruitNotification": ".card-content .field:first-child div[class='notification is-success'] p",
+        "superherosSelect": "#superheros",
+        "notification": ".card-content .field:nth-child(2) div[class='notification is-success'] p",
+        "languageSelect": "#lang",
+        "countrySelect": "#country"
+    },
+
+    "alertPage": {
+        "simpleAlertButton": "#accept",
+        "confirmAlertButton": "#confirm",
+        "promptAlertButton": "#prompt",
+        "modernAlertButton": "#modern",
+        "notification": "#myName"
+    },
+
+    "radioPage": { 
+        "firstRadioYes": ".field:first-of-type #yes",
+        "firstRadioNo": ".field:first-of-type #no",
+        "secondRadioYes": ".field:nth-of-type(2) #one",
+        "secondRadioNo": ".field:nth-of-type(2) #two",
+        "thirdRadioYes": ".field:first-of-type #yes",
+        "thirdRadioNo": ".field:first-of-type #no",
+        "fourthRadioFoo": ".field:nth-of-type(4) #foo",
+        "fourthRadioBar": ".field:nth-of-type(4) #notfoo",
+        "fifthRadioMaybe": ".field:nth-of-type(5) #maybe",
+        "rememberCheckbox": ".field:nth-of-type(6) .checkbox",
+        "termsCheckbox": ".field:nth-of-type(7) .checkbox"
+    },
+
+    "dropPage": {
+        "sourceElement": "#draggable",
+        "destinationElement": "#droppable",
+        "destinationMessage": "#droppable>p"
+    },
+
+    "sliderPage": {
+        "countriesButton": "button[class='button is-primary']",
+        "sliderHandler": "#generate",
+        "notificationBox": "div>.has-text-primary-light",
+        "wordLimitInfo": "h1[class*='subtitle']"
+    },
+    
+    "tablePage": {
+        "shoppingList": "#shopping tbody",
+        "attendanceList": " ",
+        "dessertRows": "table tr[class='ng-star-inserted']",
+        "sortDessert": "th[mat-sort-header='name'] div[role='button']",
+        "totalPrice": "#shopping tfoot b"
+    },
+
+    "filePage": {
+        "downloadExcelButton": "#xls",
+        "downloadPDFButton": "#pdf",
+        "downloadTextButton": "#txt"
+    },
+
+    "formPage": {
+        "firstnameInput": "#firstname",
+        "lastnameInput": "#lasttname",
+        "emailInput": "#email",
+        "countryCodeSelect": "#countrycode + div select",
+        "phoneNumberInput": "#Phno",
+        "addressLine1Input": "#Addl1",
+        "addressLine2Input": "#Addl2",
+        "stateInput": "#state",
+        "postalCodeInput": "#postalcode",
+        "countrySelect": "#country + div select",
+        "dateOfBirthCalendar": "#Date",
+        "genderFemaleRadio": "#female",
+        "genderMaleRadio": "#male",
+        "genderTransgenderRadio": "#trans",
+        "termsCheckbox": "input[type='checkbox']",
+        "submitButton": "input[type='submit']"
+    }
+}
